@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<!-- レスポンシブ対応 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/skippr.css">
+	<!-- animate.cssのファイル -->
+    <link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>omakase</title>
+</head>
+
+<body>
+
+<!-- top -->
+<div id="__nuxt">
+	<!---->
+	<div id="__layout">
+		<div>
+			<div>
+				<div id="js-header-bar" class="header-bar">
+					<div class="header-bar-logo">
+						<a href="#"><img decoding="async" src="img/logo.png" alt="OMAKASE"></a>
+					</div>
+					<div class="header-bar-menu">
+						<a href="#" class="header-bar-link-text header-bar-link-text-a">サービス概要</a>
+						<a href="#" class="header-bar-link-text header-bar-link-text-a">導入事例</a>
+						<a href="#" class="header-bar-link-text header-bar-link-text-a">料金体系</a>
+						<a href="#" class="header-bar-link-text header-bar-link-text-a">よくある質問</a>
+						<span class="header-bar-link-text-btn"><a href="/contact/" target="_blank">無料デモ申し込み</a></span>
+					</div>
+					<!---->
+					<!---->
+					<div class="header-bar-right-text-wrap">
+						<div class="header-bar-right-text-wrap-top">
+							<span><a href="/contact/" class="no-decoration-text-a contact hover-link">お問い合わせ</a></span>
+							<span><a href="/login/" class="no-decoration-text-a login hover-link">ログイン</a></span>
+						</div>
+						<div class="header-bar-right-text-wrap-bottom">
+							<span class="tel-num">03-2222-1111</span>
+							<span>平日10:00 ~ 17:00</span>
+						</div>
+					</div>
+					<!-- <div class="sp-header-bar-right-text-wrap">
+						<span><a href="/login/" class="no-decoration-text-a login">ログイン</a></span>
+					</div>
+					<div id="js-hamburger" class="hamburger-button">
+						<span class="bar top"></span>
+						<span class="bar middle"></span>
+						<span class="bar bottom"></span>
+					</div> -->
+				</div>
+				<div id="js-nav-screen" class="nav-screen" style="display:none">
+					<div class="nav-screen__content">
+						<a href="/#" class="nav-screen__content-link hmbg-link">サービス概要</a>
+						<a href="/#" class="nav-screen__content-link hmbg-link">導入事例</a>
+						<a href="/#" class="nav-screen__content-link hmbg-link">料金体系</a>
+						<a href="/#" class="nav-screen__content-link hmbg-link">よくある質問</a>
+						<a href="/contact/" class="nav-screen__content-link hmbg-link">お問い合わせ</a>
+						<a href="/contact/" target="_blank" class="nav-screen-button demo">
+							<span class="small-text">オマカセをもっと知りたい</span><br>
+							<span class="large-text">無料デモ申し込み</span>
+						</a>
+						<a href="tel:01-0709-1223" target="_self" class="nav-screen-button bottom">
+							<span class="small-text">平日10:00 ~ 17:00</span><br>
+							<span class="large-text">電話で問い合わせる</span>
+						</a>
+					</div>
+					<!---->
+					<!---->
+				</div>
+			</div>
+			<div>
+				<div>
+					<header class="header">
+						<div class="header-desc">
+							<h1 class="header-desc__title">仕事を、もっと"シンプル"に</h1>
+							<h1 class="sp-header-desc__title">仕事を<br>もっと"シンプル"に</h1>
+							<p class="header-desc__caption">アナログな受発注をスマホで効率化し使える時間を増やします</p>
+							<p class="sp-header-desc__caption">アナログな受発注をスマホで効率化し使える時間を増やします</p>
+							<div class="header-desc__download">
+								<a href="/contact/" target="_blank">
+									<span class="header-desc__download-small-text">オマカセをもっと知りたい</span><br>
+									<span class="header-desc__download-large-text">無料デモ申し込み</span>
+								</a>
+							</div>
+						</div>
+						<div class="sp-header-wrap">
+							<img src="img/sp-main1.png" alt="OMAKASE" class="sp-header-wrap__left-img">
+							<div class="sp-header-wrap__center">
+								<img src="img/main_center.jpg" alt="OMAKASE" class="sp-header-wrap__center-img">
+								<p class="sp-header-wrap__center-mark-img"></p>
+							</div>
+								<img src="img/sp-main2.7dc2c65.png" alt="OMAKASE" class="sp-header-wrap__right-img">
+						</div> 
+						<div class="sp-header-desc__download">
+							<a href="/contact/" target="_blank">
+								<span class="header-desc__download-small-text">オマカセをもっと知りたい</span><br>
+								<span class="header-desc__download-large-text">無料デモ申し込み</span>
+							</a>
+						</div>
+						<div class="header-wrap">
+							<img src="img/main1.png" alt="OMAKASE" class="header-wrap__left-img">
+							<div class="header-wrap__center">
+								<img src="img/main_center.jpg" alt="OMAKASE" class="header-wrap__center-img">
+								<div class="header-wrap__center-mark-img"><p class="circle-small-text">サービス継続率</p><p class="circle-big-text">99%</p></div>
+							</div>
+							<img src="img/main2.png" alt="OMAKASE" class="header-wrap__right-img">
+						</div>
+						<!-- <div class="company logos1">
+							<div class="company-wrap">
+								<ul class="company-loop">
+									<li><img src="img/p0.png" alt="さんれいフーズ" decoding="async" class="logo1-00"></li>
+									<li><img src="img/p1.png" alt="ベジクル" decoding="async" class="logo1-01"></li>
+									<li><img src="img/p2.jpg" alt="イタリアンフーズ" decoding="async" class="logo1-02"></li>
+									<li><img src="img/p3.png" alt="合同会社 旬彩坊" decoding="async" class="logo1-03"></li>
+									<li><img src="img/p4.png" alt="旭屋肉店" decoding="async" class="logo1-04"></li>
+									<li><img src="img/p5.png" alt="Buon Gusto" decoding="async" class="logo1-05"></li>
+									<li><img src="img/p6.png" alt="Euro Trading Limited" decoding="async" class="logo1-06"></li>
+									<li><img src="img/p7.png" alt="myrtos" decoding="async" class="logo1-07"></li>
+									<li><img src="img/p8.svg" alt="yatsumoto" decoding="async" class="logo1-08"></li>
+									<li><img src="img/p9.png" alt="やさいのマルヤス" decoding="async" class="logo1-09"></li>
+									<li><img src="img/p10.svg" alt="鯉沼商会" decoding="async" class="logo1-10"></li>
+								</ul>
+							</div>
+							<div class="company-wrap">
+								<ul class="company-loop">
+									<li><img src="img/p0.png" alt="さんれいフーズ" decoding="async" class="logo1-00"></li>
+									<li><img src="img/p1.png" alt="ベジクル" decoding="async" class="logo1-01"></li>
+									<li><img src="img/p2.jpg" alt="イタリアンフーズ" decoding="async" class="logo1-02"></li>
+									<li><img src="img/p3.png" alt="合同会社 旬彩坊" decoding="async" class="logo1-03"></li>
+									<li><img src="img/p4.png" alt="旭屋肉店" decoding="async" class="logo1-04"></li>
+									<li><img src="img/p5.png" alt="Buon Gusto" decoding="async" class="logo1-05"></li>
+									<li><img src="img/p6.png" alt="Euro Trading Limited" decoding="async" class="logo1-06"></li>
+									<li><img src="img/p7.png" alt="myrtos" decoding="async" class="logo1-07"></li>
+									<li><img src="img/p8.svg" alt="yatsumoto" decoding="async" class="logo1-08"></li>
+									<li><img src="img/p9.png" alt="やさいのマルヤス" decoding="async" class="logo1-09"></li>
+									<li><img src="img/p10.svg" alt="鯉沼商会" decoding="async" class="logo1-10"></li>
+								</ul>
+							</div>
+						</div>
+						<div class="company logos2">
+							<div class="company-wrap">
+								<ul class="company-loop">
+									<li><img src="img/a0.jpg" alt="ヒラタ" decoding="async" class="logo2-00"></li>
+									<li><img src="img/a1.png" alt="中華高橋" decoding="async" class="logo2-01"></li>
+									<li><img src="img/a2.png" alt="製麺屋慶史" decoding="async" class="logo2-02"></li>
+									<li><img src="img/a3.png" alt="マサキ屋" decoding="async" class="logo2-03"></li>
+									<li><img src="img/a4.jpg" alt="株式会社マチルダ" decoding="async" class="logo2-04"></li>
+									<li><img src="img/a5.png" alt="久世" decoding="async" class="logo2-05"></li>
+									<li><img src="img/a6.jpg" alt="沼田商事" decoding="async" class="logo2-06"></li>
+									<li><img src="img/a7.jpg" alt="立野商店" decoding="async" class="logo2-07"></li>
+									<li><img src="img/a8.png" alt="ユニマットキャラバン" decoding="async" class="logo2-08"></li>
+									<li><img src="img/a9.jpg" alt="赤坂四方" decoding="async" class="logo2-09"></li>
+									<li><img src="img/a10.gif" alt="下浦商店" decoding="async" class="logo2-10"></li>
+									<li><img src="img/a11.png" alt="ミナト商会" decoding="async" class="logo2-11"></li>
+									<li><img src="img/a12.png" alt="香那ホールセール" decoding="async" class="logo2-12"></li>
+								</ul>
+							</div>
+							<div class="company-wrap">
+								<ul class="company-loop">
+									<li><img src="img/a0.jpg" alt="ヒラタ" decoding="async" class="logo2-00"></li>
+									<li><img src="img/a1.png" alt="中華高橋" decoding="async" class="logo2-01"></li>
+									<li><img src="img/a2.png" alt="製麺屋慶史" decoding="async" class="logo2-02"></li>
+									<li><img src="img/a3.png" alt="マサキ屋" decoding="async" class="logo2-03"></li>
+									<li><img src="img/a4.jpg" alt="株式会社マチルダ" decoding="async" class="logo2-04"></li>
+									<li><img src="img/a5.png" alt="久世" decoding="async" class="logo2-05"></li>
+									<li><img src="img/a6.jpg" alt="沼田商事" decoding="async" class="logo2-06"></li>
+									<li><img src="img/a7.jpg" alt="立野商店" decoding="async" class="logo2-07"></li>
+									<li><img src="img/a8.png" alt="ユニマットキャラバン" decoding="async" class="logo2-08"></li>
+									<li><img src="img/a9.jpg" alt="赤坂四方" decoding="async" class="logo2-09"></li>
+									<li><img src="img/a10.gif" alt="下浦商店" decoding="async" class="logo2-10"></li>
+									<li><img src="img/a11.png" alt="ミナト商会" decoding="async" class="logo2-11"></li>
+									<li><img src="img/a12.png" alt="香那ホールセール" decoding="async" class="logo2-12"></li>
+								</ul>
+							</div>
+						</div> -->
+						<div id="intro" aria-hidden="true"></div>
+						<div id="sp-intro" aria-hidden="true"></div>
+					</header>
+				</div>
+
+<!-- intro-top -->
+<section>
+	<div class="intro-top">
+		<h2 class="intro-top__title">こんな課題ありませんか？</h2>
+
+		<div class="intro-top__case-wrap">
+			<div class="intro-top__case1">
+				<span class="intro-top__case1-title">電話・FAXでの<br>受注業務が煩雑で大変</span>
+				<img src="img/case-top-1.png" alt="煩雑な受注業務" class="intro-top__case1-img">
+			</div>
+			<div class="intro-top__case2">
+				<span class="intro-top__case2-title">手作業で注文の<br>受付・集計に時間がかかる</span>
+				<img src="img/case-top-2.png" alt="受付・集計に時間がかかる" class="intro-top__case2-img">
+			</div>
+			<div class="intro-top__case3">
+				<span class="intro-top__case3-title">忙しくて最適な<br>商品提案ができていない</span>
+				<img src="img/case-top-3.png" alt="商品提案ができない" class="intro-top__case3-img">
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- intro-bottom -->
+<section>
+	<div class="intro-bottom">
+		<h2 class="intro-bottom__title">OMAKASEなら解決できます</h2>
+			<p class="intro-bottom__text">
+				OMAKASEは、卸業者の声から生まれた受発注システムです
+			</p>
+
+		<div class="intro-bottom__case-wrap">
+			<div class="intro-bottom__case1">
+				<div class="intro-bottom__case1-title">1. 商品案内</div>
+				<img src="img/case-bottom-1.png" alt="商品案内" class="intro-bottom__case1-img">
+				　<p class="intro-bottom__case1-text">
+						顧客ごとのいつもの商品の登録はもちろん、新商品や特価品の案内もスマホから行えます！
+					</p>
+				</div>
+					<i class="fas fa-arrow-alt-circle-right intro-bottom__case-arrow fa-3x"></i>
+			<div class="intro-bottom__case2">
+				<div class="intro-bottom__case2-title">2. 注文受付</div>
+				<img src="img/case-bottom-2.png" alt="注文受付" class="intro-bottom__case2-img">
+					<p class="intro-bottom__case2-text">
+						利用料無しでスマホからカンタンに注文できるので、中小飲食店でも高い導入率
+					</p>
+				</div>
+					<i class="fas fa-arrow-alt-circle-right intro-bottom__case-arrow fa-3x"></i>
+			<div class="intro-bottom__case3">
+				<div class="intro-bottom__case3-title">3. 受注・集計</div>
+				<img src="img/case-bottom-3.png" alt="受注・集計" class="intro-bottom__case3-img">
+					<p class="intro-bottom__case3-text">
+						リアルタイムに販売数の実績を把握することができます。
+					</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- テレワーク -->
+<section class="sub-contents1">
+	<div class="contents">
+		<div class="teleworks">
+			<h2 class="teleworks__title">アフターコロナ時代の業務整備に</p>
+			<p class="teleworks__text">OMAKASEをつかって、テレワーク、非対面の営業活動を始めましょう。</p>
+		</div>
+
+		<div class="teleworks__list">
+			<div class="teleworks__list1">
+				<div class="teleworks__list1-title">テレワークでの<br>受注処理が可能に</div>
+			</div>
+			<div class="teleworks__list2">
+				<div class="teleworks__list2-title">新商品の案内が<br>非対面で可能に</div>
+			</div>
+			<div class="teleworks__list3">
+				<div class="teleworks__list3-title">新規営業時の<br>オンラインカタログ利用も</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- 理由 -->
+<div class="reasons">
+	<h2 class="reasons__title">OMAKASEが選ばれる6つの理由</h2>
+	<div class="reasons__wrap">
+		<div class="reasons__main1"><div class="reasons__main1-num"><span class="reasons__main1-num__text">1</span></div> <div class="reasons__main1-content-wrap"><img src="img/reason-main1.png" alt="OMAKASE" class="reasons__main1-content-img"> <div class="reasons__main1-content"><span class="reasons__main1-content-title">あらゆる操作を
+		スマートフォンで行える</span> <span class="reasons__main1-content-text">配送中や倉庫にいてもいつでもどこからでも
+		スマホでオマカセを使うことができます。
+		もちろん、PCやタブレットの操作も可能です！</span></div></div></div>
+		<div class="reasons__main2"><div class="reasons__main2-num"><span class="reasons__main2-num__text">2</span></div> <div class="reasons__main2-content-wrap"><img src="img/reason-main2.png" alt="個人店舗の導入率" class="reasons__main2-content-img"> <div class="reasons__main2-content"><span class="reasons__main2-content-title">個人経営店舗の
+		導入率が圧倒的に高い</span> <span class="reasons__main2-content-text">PCを前提とした他ツールと比較し、タノムはスマホで使えるため、圧倒的に
+		注文しやすいのが特徴です！</span></div></div></div><div class="reasons__main3"><div class="reasons__main3-num"><span class="reasons__main3-num__text">3</span></div> <div class="reasons__main3-content-wrap"><img src="img/reason-main3.png" alt="CSV連携" class="reasons__main3-content-img"> <div class="reasons__main3-content"><span class="reasons__main3-content-title">CSV連携で、受注業務を
+		1/10に削減可能</span> <span class="reasons__main3-content-text">ご利用の基幹システムに合わせた形で受注データを出力することができま
+		す。今までの手作業を全て自動化可能です！</span></div></div></div>
+		<div class="reasons__main4"><div class="reasons__main4-num"><span class="reasons__main4-num__text">4</span></div> <div class="reasons__main4-content-wrap"><img src="img/reason-main4.png" alt="売上アップ" class="reasons__main4-content-img"> <div class="reasons__main4-content"><span class="reasons__main4-content-title">営業マンを増やさずに
+		売上アップ！</span> <span class="reasons__main4-content-text">写真付きで新商品や特価品の案内を行うことで、お客様のニースに応え、つ
+		いで買いを増やすことができます！</span></div></div></div>
+		<div class="reasons__main5"><div class="reasons__main5-num"><span class="reasons__main5-num__text">5</span></div> <div class="reasons__main5-content-wrap"><img src="img/reason-main5.png" alt="自動注文集計" class="reasons__main5-content-img"> <div class="reasons__main5-content"><span class="reasons__main5-content-title">毎日の注文集計作業も
+		自動でラクラク！</span> <span class="reasons__main5-content-text">何の商品がどれだけ売れたかリアルタイムで自動に集計が行われるので、手
+		作業での集計は不要に！</span></div></div></div>
+		<div class="reasons__main6"><div class="reasons__main6-num"><span class="reasons__main6-num__text">6</span></div> <div class="reasons__main6-content-wrap"><img src="img/reason-main6.png" alt="FAXOCR" class="reasons__main6-content-img"> <div class="reasons__main6-content"><span class="reasons__main6-content-title">FAXでの受注も
+		OCRでデータ化可能</span> <span class="reasons__main6-content-text">FAXからの切り替えが難しい得意先の受注も管理画面からデータ化可能！
+		モバイル発注と組み合わせることで受注を100%デジタル化！</span></div></div></div>
+	</div>
+<!--  -->
+	<!-- <div class="reasons__wrap">
+		<div class="reasons__main1">
+			<div class="reasons__main1-num">
+				<span class="reasons__main1-num__text">1</span>
+			</div>
+			<div class="reasons__main1-content-wrap">
+				<img src="img/reason-main1.png" alt="OMAKASE" class="reasons__main1-content-img">
+				<div class="reasons__main1-content">
+					<span class="reasons__main1-content-title">あらゆる操作を<br>スマートフォンで行える</span>
+					<span class="reasons__main1-content-text">配送中や倉庫にいてもいつでもどこからでもスマホでタノムを使うことができます。<br>もちろん、PCやタブレットの操作も可能です！</span>
+				</div>
+			</div>
+		</div>
+		<div class="reasons__main2">
+			<div class="reasons__main2-num">
+				<span class="reasons__main2-num__text">2</span>
+			</div>
+			<div class="reasons__main2-content-wrap">
+				<img src="img/reason-main2.png" alt="個人店舗の導入率" class="reasons__main2-content-img">
+				<div class="reasons__main2-content"><span class="reasons__main2-content-title" >個人経営店舗の
+			導入率が圧倒的に高い</span><span class="reasons__main2-content-text">PCを前提とした他ツールと比較し、タノムはスマホで使えるため、圧倒的に
+			注文しやすいのが特徴です！</span></div></div></div>
+
+		<div class="reasons__main3">
+			<div class="reasons__main3-num">
+				<span class="reasons__main3-num__text">3</span>
+			</div>
+			<div class="reasons__main3-content-wrap">
+				<img src="img/reason-main3.png" alt="CSV連携" class="reasons__main3-content-img">
+				<div class="reasons__main3-content">
+				<span class="reasons__main3-content-title">CSV連携で、受注業務を<br>1/10に削減可能</span>
+				<span class="reasons__main3-content-text">ご利用の基幹システムに合わせた形で受注データを出力することができます。今までの手作業を全て自動化可能です！</span>
+				</div>
+			</div>
+		</div>
+		<div class="reasons__main4">
+			<div class="reasons__main4-num">
+				<span class="reasons__main4-num__text">4</span>
+			</div>
+			<div class="reasons__main4-content-wrap">
+				<img src="img/reason-main4.png" alt="売上アップ" class="reasons__main4-content-img">
+				<div class="reasons__main4-content">
+					<span class="reasons__main4-content-title">営業マンを増やさずに<br>売上アップ！</span>
+					<span class="reasons__main4-content-text">写真付きで新商品や特価品の案内を行うことで、お客様のニースに応え、ついで買いを増やすことができます！</span>
+				</div>
+			</div>
+		</div>
+		<div class="reasons__main5">
+			<div class="reasons__main5-num">
+				<span class="reasons__main5-num__text">5</span>
+			</div>
+			<div class="reasons__main5-content-wrap">
+				<img src="img/reason-main5.png" alt="自動注文集計" class="reasons__main5-content-img"> <div class="reasons__main5-content">
+					<span class="reasons__main5-content-title">毎日の注文集計作業も<br>自動でラクラク！</span>
+					<span class="reasons__main5-content-text">何の商品がどれだけ売れたかリアルタイムで自動に集計が行われるので、手作業での集計は不要に！</span>
+				</div>
+			</div>
+		</div>
+		<div class="reasons__main6">
+			<div class="reasons__main6-num">
+				<span class="reasons__main6-num__text">6</span>
+			</div>
+			<div class="reasons__main6-content-wrap">
+				<img src="img/reason-main6.png" alt="FAXOCR" class="reasons__main6-content-img">
+				<div class="reasons__main6-content">
+						<span class="reasons__main6-content-title">FAXでの受注も<br>OCRでデータ化可能</span>
+						<span class="reasons__main6-content-text">FAXからの切り替えが難しい得意先の受注も管理画面からデータ化可能！<br>モバイル発注と組み合わせることで受注を100%デジタル化！</span>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	<div id="cases" aria-hidden="true"></div>
+</div>
+
+<!-- cases -->
+<div class="cases">
+	<h2 class="cases__title">OMAKASE導入による効果</h2>
+	<p class="cases__text">多くの導入企業で売上UP、コスト削減の効果を実感いただいております。</p>
+	<div class="cases__list">
+		<div class="cases__list1">
+			<span class="cases__list1-title">期限切れ間近のハムが<br>たったの3分で完売</span>
+			<img src="img/case1-main.jpg" alt="導入事例1" class="cases__list1-img">
+			<div class="cases__list1-logo">
+				<img src="img/case-sub1.png" alt="goo wine" class="cases__list1-logo-img">
+			</div>
+			<div class="cases__list1-link">
+				<a target="_blank" href="/case/goo wine" class="cases__list1-link__text">
+				<span class="hover-link-white">詳しく読む</span>
+				<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAAApCAYAAABXwiUUAAAACXBIWXMAACxLAAAsSwGlPZapAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEdSURBVHgB7drhaQJBEIbhuZACLCElWIKpIHYQS0gHt6kgKcEOLEk70A7GT4RjERTvbncH5H1gWLg/wssyh3BmAF6Eu39o/jR7vzpqdpqVoTyF/fHHkqEcBV37c5KhjGydEL6Fy7728ZJhOgXc+DTJKnsz3OqdGz+Nwi19nmQYz8e9SAlfgk97mRJ+LkXrfb5kGIfwQQgfhPBBCB+E8EEIH4TwQQgfhPBBCB+E8EEIH4TwQQgfhPBBCB+kdPj3Oz+y0vGlWRpK6dXVuq5LXf5UDxc6/jXfhlp+b6PvdKwNVQ0fGyn4xgjeRP6FFyulkWG96KYfdSwM1eXR3dBEvl4Ohiby6FtDE/l6uezzvbHXqxtuuv4pnXR8ak6Gmg5nyvr1Vp3WkvQAAAAASUVORK5CYII=" alt="左矢印" class="cases__list-path"></a>
+			</div>
+		</div>
+		<div class="cases__list2">
+			<span class="cases__list2-title">営業マンの売上<br>150%UPを実現</span>
+			<img src="img/case2-main.jpg" alt="導入事例2" class="cases__list2-img">
+			<div class="cases__list2-logo">
+				<img src="img/case-sub2.png" alt="leafoods" class="cases__list2-logo-img">
+			</div>
+			<div class="cases__list2-link">
+				<a target="_blank" href="/case/leafoods/" class="cases__list2-link__text">
+				<span class="hover-link-white">詳しく読む</span>
+				<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAAApCAYAAABXwiUUAAAACXBIWXMAACxLAAAsSwGlPZapAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEdSURBVHgB7drhaQJBEIbhuZACLCElWIKpIHYQS0gHt6kgKcEOLEk70A7GT4RjERTvbncH5H1gWLg/wssyh3BmAF6Eu39o/jR7vzpqdpqVoTyF/fHHkqEcBV37c5KhjGydEL6Fy7728ZJhOgXc+DTJKnsz3OqdGz+Nwi19nmQYz8e9SAlfgk97mRJ+LkXrfb5kGIfwQQgfhPBBCB+E8EEIH4TwQQgfhPBBCB+E8EEIH4TwQQgfhPBBCB+kdPj3Oz+y0vGlWRpK6dXVuq5LXf5UDxc6/jXfhlp+b6PvdKwNVQ0fGyn4xgjeRP6FFyulkWG96KYfdSwM1eXR3dBEvl4Ohiby6FtDE/l6uezzvbHXqxtuuv4pnXR8ak6Gmg5nyvr1Vp3WkvQAAAAASUVORK5CYII=" alt="左矢印" class="cases__list-path"></a>
+			</div>
+		</div>
+		<div class="cases__list3">
+			<span class="cases__list3-title">データ入力時間<br>9割短縮を実現</span>
+			<img src="img/case3-main.jpg" alt="導入事例3" class="cases__list3-img">
+			<div class="cases__list3-logo">
+				<img src="img/case-sub3.png" alt="tubasa" class="cases__list3-logo-img">
+			</div>
+			<div class="cases__list3-link">
+				<a target="_blank" href="/case/tubasa/" class="cases__list3-link__text">
+				<span class="hover-link-white">詳しく読む</span>
+				<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAAApCAYAAABXwiUUAAAACXBIWXMAACxLAAAsSwGlPZapAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEdSURBVHgB7drhaQJBEIbhuZACLCElWIKpIHYQS0gHt6kgKcEOLEk70A7GT4RjERTvbncH5H1gWLg/wssyh3BmAF6Eu39o/jR7vzpqdpqVoTyF/fHHkqEcBV37c5KhjGydEL6Fy7728ZJhOgXc+DTJKnsz3OqdGz+Nwi19nmQYz8e9SAlfgk97mRJ+LkXrfb5kGIfwQQgfhPBBCB+E8EEIH4TwQQgfhPBBCB+E8EEIH4TwQQgfhPBBCB+kdPj3Oz+y0vGlWRpK6dXVuq5LXf5UDxc6/jXfhlp+b6PvdKwNVQ0fGyn4xgjeRP6FFyulkWG96KYfdSwM1eXR3dBEvl4Ohiby6FtDE/l6uezzvbHXqxtuuv4pnXR8ak6Gmg5nyvr1Vp3WkvQAAAAASUVORK5CYII=" alt="左矢印" class="cases__list-path"></a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- voice -->
+<div class="voice">
+	<h2 class="voice__title">
+	飲食店の発注は、電話・FAX→スマホに置き換わってきています！
+	</h2>
+	<p class="voice__text">
+	サービス開始から約半年間で多くの飲食店 -卸業者間の受発注がスマホに置き換わっています
+	</p>
+	<div class="voice__image">
+		<div class="voice__image-left">
+			<img src="img/voice-main1.png" alt="導入店舗数" class="voice__image-left-img">
+			<div class="voice__image-right-text">
+				<span class="voice__image-left-small-text">導入店舗数</span><br>
+				<span class="voice__image-left-large-text">10,000店舗超</span>
+			</div>
+		</div>
+		<div class="voice__image-right">
+			<i class="fas fa-list-alt voice__image-right-img fa-5x"></i>
+			<div class="voice__image-right-text">
+				<span class="voice__image-right-small-text">注文商品数</span><br>
+				<span class="voice__image-right-large-text">月間100,000点突破</span>
+			</div>
+		</div>
+	</div>
+	<div class="voice__1">
+		<img src="img/voice-mask1.png" alt="「オリーブとパスタとワイン」" class="voice__1-mask">
+		<div><span class="voice__1-small-text">VOICE 1.「オリーブとパスタとワイン」末永さん</span><br> 
+			<div class="voice__1-large-text-wrap">
+				<span class="voice__1-large-text">FAX「届いていない」トラブルがなくなり、<br>ストレスは半分以下になりました。</span>
+				<a href="/case/wine-suenaga/" class="voice__1-link">
+				<span class="hover-link">詳しく読む</span>
+				<i class="fas fa-arrow-right voice__list-path"></i>
+			</div>
+			</div>
+	</div>
+	<div class="voice__2">
+		<img src="img/voice-mask2.png" alt="「bistro CHIE」石川さん" class="voice__2-mask">
+		<div><span class="voice__2-small-text">VOICE 2.「bistro CHIE」石川さん</span><br>
+			<div class="voice__2-large-text-wrap">
+				<span class="voice__2-large-text">誰でもどこでも簡単に発注できる仕組み。<br>”ついで買い”も増えました（笑）</span>
+				<a href="/case/chie-ishikawa/" class="voice__2-link">
+				<span class="hover-link">詳しく読む</span>
+				<i class="fas fa-arrow-right voice__list-path"></i>
+			</div>
+		</div>
+	</div>
+	<div class="voice__3">
+		<img src="img/voice-mask3.png" alt="「串カツダイニングDAN」高濱さん" class="voice__3-mask">
+		<div><span class="voice__3-small-text">VOICE 3.「串カツダイニングDAN」高濱さん</span><br>
+			<div class="voice__3-large-text-wrap">
+				<span class="voice__3-large-text">閉店後、終電の中でサクサク注文できるので助かっています！</span>
+				<a href="/case/dan-takahama/" class="voice__3-link">
+				<span class="hover-link">詳しく読む</span>
+				<i class="fas fa-arrow-right voice__list-path"></i>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- support -->
+<div class="support">
+	<h2 class="support__title">安心の導入支援サポート</h2>
+	<div class="support__list">
+		<div class="support__list-left">
+			<i class="fas fa-mobile-alt support__list-center-img fa-4x"></i>
+			<span class="support__list-left-title">初期の商品登録代行</span>
+			<span class="support__list-left-text">面倒な商品登録は弊社に全てお任せください。貴社の担当者に代わり、登録を代行します！</span>
+		</div>
+		<div class="support__list-center">
+			<i class="fas fa-headset support__list-center-img fa-4x"></i>
+			<span class="support__list-center-title">導入促進支援</span>
+			<span class="support__list-center-text">案内用のチラシや使い方ガイドを作成し、店舗様がスムーズに導入できるようサポートさせていただきます！</span>
+		</div>
+		<div class="support__list-right">
+			<i class="far fa-comments  support__list-center-img fa-4x"></i>
+			<span class="support__list-right-title">担当者へのレクチャー</span>
+			<span class="support__list-right-text">社内からの質問に、担当者様が対応できるように、しっかりとこちらでレクチャーを行わせていただきます！</span>
+		</div>
+	</div>
+	<div id="price" aria-hidden="true"></div>
+</div>
+<!-- price -->
+<div class="price">
+	<h2 class="price__title">料金体系</h2>
+	<p class="price__desc">
+	OMAKASEは月額数万円〜の定額課金と非常にリーズナブルな料金形態！<br>自社開発すると数千万〜数億円のコストがかかりますが、タノムなら手軽な金額で導入できます。
+	</p>
+	<div class="price__top">
+		<div class="price__top-content">
+			<div class="price__top-content-left">
+				<span class="price__top-content-left__text">初期費用</span>
+			</div>
+			<p class="price__top-content-center">＋</p>
+			<div class="price__top-content-right">
+				<span class="price__top-content-right__text">月額費用</span>
+			</div>
+		</div>
+	</div>
+	<div class="price__bottom">
+		<div class="price__subsidy">
+			<img decoding="async" src="img/ithojo.png" alt="IT導入補助金2020">
+		</div>
+		<p class="price__bottom-title">
+		料金の詳細については、お気軽にお問い合わせください
+		</p>
+		<div class="price__bottom-btn">
+			<a href="/contact/" class="price__bottom-btn__text">お問い合わせはこちらから</a>
+		</div>
+	</div>
+		<div id="faq" aria-hidden="true"></div>
+</div>
+
+<!-- question -->
+<div class="faq">
+	<h2 class="faq__title">よくある質問</h2>
+	<div class="faq-main">
+		<div class="faq-main__wrap">
+			<div class="faq-main__num">
+				<span class="faq-main__num-inner">Q</span>
+			</div>
+			<div class="faq-main__content">
+				<span class="faq-main__content-title">ネットに商品を掲載すると誰でも観れてしまうのでしょうか？</span>
+				<span class="faq-main__content-text">貴社の招待URLで登録した方以外見れないようになっています。登録後でも取引停止にすることで、貴社の商品閲覧できない<br>ようにすることもできます。</span>
+			</div>
+		</div>
+	</div> 
+	<div class="faq-main">
+		<div class="faq-main__wrap">
+			<div class="faq-main__num">
+				<span class="faq-main__num-inner">Q</span>
+			</div>
+			<div class="faq-main__content">
+				<span class="faq-main__content-title">今後、機能は追加されますか？</span> 
+				<span class="faq-main__content-text">お客さまの声を聞きながら、ほぼ毎週、機能改善を行っています。<br>導入企業様と一緒に良いプロダクトづくりをしていければと考えています。</span>
+			</div>
+		</div>
+	</div>
+	<div class="faq-main">
+		<div class="faq-main__wrap">
+			<div class="faq-main__num">
+				<span class="faq-main__num-inner">Q</span>
+			</div>
+			<div class="faq-main__content">
+				<span class="faq-main__content-title">利用料金はいくらですか？</span>
+				<span class="faq-main__content-text">月額数万円〜の定額課金と非常にリーズナブルな料金形態となっております。商品マスタ数や月間の受注件数など<br>により、月額費用が変動しますので、詳細は弊社までお問い合わせください。</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- おしらせ -->
+<div class="news" >
+	<h2 class="news__title" >お知らせ</h2>
+	<div class="news__rows" >
+		<div class="news__rows-ele" >
+			<span class="news__rows-ele__date" >2021-02-10</span>
+			<a href="/news/2021-02-10-release_enterprise" class="news__rows-ele__text" >販促・受発注システム『OMAKASE』が 大手卸業者向け『OMAKASE エンタープライズ』をリリース</a>
+		</div>
+		<div class="news__rows-ele" >
+			<span class="news__rows-ele__date" >2020-08-25</span>
+			<a href="/news/2020-08-25-beauty_industory" class="news__rows-ele__text" >『オマカセ』が美容業界に進出！美容業界における非接触営業・働き方改革を支援</a>
+		</div>
+		<div class="news__rows-ele" >
+			<span class="news__rows-ele__date" >2020-05-15</span>
+			<a href="/news/2020-05-15-ithojo2020" class="news__rows-ele__text" >受発注・販促効率化サービスとして、OMAKASEがIT導入補助金の対象ツールに認定されました</a>
+		</div>
+		<div class="news__rows-ele" >
+			<span class="news__rows-ele__date" >2020-03-31</span>
+			<a href="/news/2020-03-31-toyosu_nakaoroshi" class="news__rows-ele__text" > 業務用食材卸 受発注システムの『オマカセ』が仲卸業者間の受発注に対応開始</a>
+		</div>
+		<div class="news__rows-ele" >
+			<span class="news__rows-ele__date" >2020-02-15</span>
+			<a href="/news/2020-02-15-faxocr" class="news__rows-ele__text" >受発注システムの『オマカセ』がFAX OCR機能の提供を開始しました</a>
+		</div>
+		<div class="news__rows-ele" >
+			<span class="news__rows-ele__date" >2020-01-30</span>
+			<a href="/news/2020-01-30-10000tenpo" class="news__rows-ele__text" >受発注システムの『オマカセ』がサービス開始から1年3ヶ月で発注ユーザー数が10,000店舗突破！</a>
+		</div>
+	</div>
+</div>
+
+<!-- フッター -->
+	<div class="footer-content">
+		<div class="footer-content__top">
+			<div class="footer-content__top-wrap">
+				<span class="footer-content__top-wrap__title">About</span>
+				<div class="footer-content__top-wrap__link-list">
+					<a href="/#" class="footer-content__top-wrap__link">サービス概要</a>
+					<a href="/#" class="footer-content__top-wrap__link">導入事例</a>
+					<a href="/#" class="footer-content__top-wrap__link">料金体系</a>
+					<a href="/#" class="footer-content__top-wrap__link">よくある質問</a>
+				</div>
+					<!---->
+			</div>
+			<div class="footer-content__top-wrap">
+				<span class="footer-content__top-wrap__title">Contact</span>
+				<div class="footer-content__top-wrap__link-list">
+					<a href="/contact/" target="_blank" class="footer-content__top-wrap__link">お問い合わせ</a>
+					<span class="footer-content__top-wrap__link">03-2222-1111（平日10:00 ~ 17:00）</span>
+				</div>
+			</div>
+			<div class="footer-content__top-wrap">
+				<span class="footer-content__top-wrap__title">Access</span>
+				<div class="footer-content__top-wrap__link-list">	
+					<span class="footer-content__top-wrap__link no-hover-style">株式会社オマカセ</span>
+					<span class="footer-content__top-wrap__link no-hover-style">〒163-8001 東京都新宿区西新宿2-8-1</span>
+				</div>
+			</div>
+		</div>
+		<div class="footer-content__bottom">
+			<a href="/company/" class="footer-content__bottom-text">会社概要</a>
+			<a href="/recruit/" class="footer-content__bottom-text">採用情報</a>
+			<a href="/company/privacy/" class="footer-content__bottom-text">プライバシーポリシー</a>
+			<a href="/company/tokusho/" class="footer-content__bottom-text">特定商取引法に基づく表記</a>
+			<span class="footer-content__bottom-text no-hover-style">© 2021 Omakase Inc.</span>
+		</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/skippr.min.js"></script>
+<!-- wow.jsのファイル -->
+<script src="js/wow.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
